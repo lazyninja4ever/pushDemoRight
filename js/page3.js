@@ -10,6 +10,8 @@ const checkNumber = () => {
   input === numb ? right() : wrong ();
 
 }
+
+console.log('edit');
 const wrong = () => {
   let msg;
   input < numb ? msg=`higher than ${input}` : msg =`lower than ${input}`;
